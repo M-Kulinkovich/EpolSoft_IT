@@ -1,0 +1,62 @@
+.footStyle {
+  right: 2;
+  bottom: 2;
+  font-size: 30px;
+  color: rgb(17, 12, 12);
+}
+.imputForms {
+  width: 25%;
+  height: 50px;
+  border-radius: 15px;
+}
+
+.container {
+  background: #ffffd4;
+}
+
+.Forms {
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+.styleText {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  color: rgb(104, 71, 71);
+  text-align: center;
+}
+.signature {
+  font-size: 10px;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  padding: 10px;
+}
+.button {
+  text-decoration: none;
+  outline: none;
+  display: inline-block;
+  width: 140px;
+  height: 45px;
+  line-height: 45px;
+  border-radius: 15px;
+  margin: 10px 20px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: 600;
+  color: #33302f;
+  background: white;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+}
+input:invalid {
+  border: 2px solid rgb(221, 31, 31);
+}
+
+input:valid {
+  border: 2px solid rgb(26, 173, 26);
+}
