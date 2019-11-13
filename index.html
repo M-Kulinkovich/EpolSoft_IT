@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="style.css" rel="stylesheet">
+    <title>
+        TestWebApplication
+    </title>
+    <h1 class="styleText">Welcome, glad to see you</h1>
+</head>
+
+<body class='container'>
+    <hr>
+    <div class="Forms">
+        Enter Array: 
+        <input
+            class="imputForms" 
+            id="arr1"
+            pattern="^[а-яА-ЯёЁa-zA-Z0-9_ ]+$"
+            placeholder="Array consisting of 9 elements" 
+            required>
+        <br>
+        Enter your string (Using only 0 or 1) : 
+        <input
+            class="imputForms" 
+            id="str"
+            placeholder="String"
+            minlength="9"
+            maxlength="9" 
+            required pattern="^([0-1]{9})$">
+    </div>
+    <hr>
+    <button class="button" onclick="changeArray();">Сlick on me</button>
+    <script src="app.js">
+    </script>
+</body>
+<footer>
+    <div class="footStyle">
+        <b>Answer : <input class="imputForms" id="out_txt" size="60"></b>
+    </div>
+    <div class="signature">@Kulinkovich Maksim Sergeevich</div>
+</footer>
+
+</html>
