@@ -18,8 +18,10 @@
             id="arr1"
             pattern="^[а-яА-ЯёЁa-zA-Z0-9_ ]+$"
             placeholder="Array consisting of 9 elements" 
-            required>
+            required
+            >
         <br>
+        <div id="error1"></div><br>
         Enter your string (Using only 0 or 1) : 
         <input
             class="imputForms" 
@@ -27,7 +29,9 @@
             placeholder="String"
             minlength="9"
             maxlength="9" 
-            required pattern="^([0-1]{9})$">
+            required
+            attern="^([0-1]{9})$"
+            >
     </div>
     <hr>
     <button class="button" onclick="changeArray();">Сlick on me</button>
