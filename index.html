@@ -19,7 +19,7 @@
             pattern="^[а-яА-ЯёЁa-zA-Z0-9_ ]+$"
             placeholder="Array consisting of 9 elements" 
             required
-            >
+        >
         <br>
         <div id="error1"></div><br>
         Enter your string (Using only 0 or 1) : 
@@ -31,7 +31,9 @@
             maxlength="9" 
             required
             pattern="^([0-1]{9})$"
-            >
+        >
+            <br>
+        <div id="error2"></div>
     </div>
     <hr>
     <button class="button" onclick="changeArray();">Сlick on me</button>
@@ -40,7 +42,7 @@
 </body>
 <footer>
     <div class="footStyle">
-        <b>Answer : <input class="imputForms" id="out_txt" size="60"></b>
+        <b><div id="result"></div></b>
     </div>
     <div class="signature">@Kulinkovich Maksim Sergeevich</div>
 </footer>
